@@ -66,7 +66,7 @@ add_action('manage_posts_custom_column', function ($col, $id) {
 }, 10, 2);
 
 // Thay footer admin
-add_filter('admin_footer_text', fn() => 'ET Website Support | Website được hỗ trợ bởi ET');
+add_filter('admin_footer_text', fn() => 'ET Website Support1 | Website được hỗ trợ bởi ET');
 
 // Soạn thảo cũ
 add_filter('use_block_editor_for_post', '__return_false');
