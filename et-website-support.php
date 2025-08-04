@@ -24,7 +24,7 @@ if (is_admin()) {
     new ET_Website_Support_Updater(
         __FILE__,
         'et-website',     // <-- Tên người dùng trên GitHub
-        'et-website-support'        // <-- Tên kho chứa (repository) mới trên GitHub
+        'diamondentertainment'        // <-- Tên kho chứa (repository) mới trên GitHub
     );
 }
 
