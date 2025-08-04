@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: ET Website Support
-Plugin URI: [https://your-website.com/](https://your-website.com/)
+Plugin URI: https://your-website.com/
 Description: Bộ công cụ hỗ trợ và tùy chỉnh website được phát triển bởi ET, có khả năng tự động cập nhật.
 Version: 1.0.0
 Author: ET Website Support
-Author URI: [https://your-website.com/](https://your-website.com/)
+Author URI: https://your-website.com/
 License: GPLv2 or later
 Text Domain: et-website-support
 */
