@@ -3,7 +3,7 @@
 Plugin Name: ET Website Support
 Plugin URI: https://your-website.com/
 Description: Bộ công cụ hỗ trợ và tùy chỉnh website, có khả năng tự động cập nhật.
-Version: 1.0.0
+Version: 1.0.2
 Author: ET Website Support
 Author URI: https://your-website.com/
 License: GPLv2 or later
@@ -66,7 +66,7 @@ add_action('manage_posts_custom_column', function ($col, $id) {
 }, 10, 2);
 
 // Thay footer admin
-add_filter('admin_footer_text', fn() => 'ET Website Support1 | Website được hỗ trợ bởi ET');
+add_filter('admin_footer_text', fn() => 'ET Website Support 1 | Website được hỗ trợ bởi ET');
 
 // Soạn thảo cũ
 add_filter('use_block_editor_for_post', '__return_false');
