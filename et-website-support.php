@@ -23,7 +23,7 @@ if (is_admin()) {
     // THAY ĐỔI THÔNG TIN REPO GITHUB CỦA BẠN TẠI ĐÂY
     new ET_Website_Support_Updater(
         __FILE__,
-        'your-github-username',     // <-- Tên người dùng trên GitHub
+        'et-website',     // <-- Tên người dùng trên GitHub
         'et-website-support'        // <-- Tên kho chứa (repository) mới trên GitHub
     );
 }
